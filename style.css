@@ -13,7 +13,7 @@ header {
   padding: 2em;
   text-align: center;
 }
-header {
+/* header {
   background: #0A0A0A;
   color: white;
   padding: 2em;
@@ -41,7 +41,7 @@ header {
   object-fit: cover;
   border-radius: 50%; /* Makes it a circle */
   border: 2px solid white;
-}
+} */
 
 
 section {
