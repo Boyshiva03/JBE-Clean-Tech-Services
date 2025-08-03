@@ -13,6 +13,36 @@ header {
   padding: 2em;
   text-align: center;
 }
+header {
+  background: #0A0A0A;
+  color: white;
+  padding: 2em;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-images {
+  display: flex;
+  gap: 1em;
+}
+
+.header-images img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes it a circle */
+  border: 2px solid white;
+}
+
 
 section {
   padding: 2em;
